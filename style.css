@@ -1,0 +1,58 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+header nav ul li {
+  text-align: center;
+  background-color: indigo;
+  border: .5px solid white;
+  color: black;
+  float:left;
+  padding-top: 30px;
+  /* margin-bottom: 30px; */
+  width: 200px;
+  height: 39px;
+}
+
+/* header{
+  
+} */
+
+main img {
+  padding-left:20px;
+  /* padding-top:30px; */
+}
+
+.ph1{
+  height: 30px;
+  border: solid 1px green;
+  clear: left; 
+}
+
+main ul li {
+  float:left;
+  margin-left: 15px;
+}
+
+.ph2{
+  clear: left; 
+  /* This clear property moved down from next to the li's. */
+  height: 30px;
+  border: solid 1px green;
+}
+
+.column1of2, .column2of2{
+  width: 550px;
+  float: left;
+  margin: 10px;
+
+}
+
+.footer{
+  background-color: indigo;
+  clear: top;
+  height:150px
+
+}
