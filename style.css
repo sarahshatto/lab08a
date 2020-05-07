@@ -7,7 +7,7 @@
 header nav ul li {
   text-align: center;
   background-color: indigo;
-  border: .5px solid white;
+  border: .5px solid rgb(43, 0, 73);
   color: black;
   float:left;
   padding-top: 30px;
@@ -27,7 +27,7 @@ main img {
 
 .ph1{
   height: 30px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
   clear: left; 
 }
 
@@ -40,14 +40,18 @@ main ul li {
   clear: left; 
   /* This clear property moved down from next to the li's. */
   height: 30px;
-  border: solid 1px green;
+  /* border: solid 1px green; */
 }
 
 .column1of2, .column2of2{
-  width: 550px;
+  width: 520px;
   float: left;
-  margin: 10px;
+  /* margin: 10px; */
 
+}
+
+section h2{
+  margin-bottom: 20px;
 }
 
 .footer{
